@@ -28,10 +28,10 @@ if(function_exists('language_attributes')) {
             codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
             width="360" height="97" id="mitki" align="middle">
             <param name="allowScriptAccess" value="always" />
-            <param name="movie" value="http://westdragon.ru/left.swf" />
+            <param name="movie" value="<?php bloginfo('stylesheet_directory'); ?>/images/left.swf" />
             <param name="quality" value="high" />
             <param name="bgcolor" value="#000000" />
-            <embed src="/wp-content/themes/wpthemegen/images/left.swf" quality="high" bgcolor="#000000" width="360" height="97" name="mitki"
+            <embed src="<?php bloginfo('stylesheet_directory'); ?>/images/left.swf" quality="high" bgcolor="#000000" width="360" height="97" name="mitki"
              align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
              pluginspage="http://www.macromedia.com/go/getflashplayer" />
             </object>
@@ -42,10 +42,10 @@ if(function_exists('language_attributes')) {
             codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
             width="285" height="396" id="mitki" align="middle">
             <param name="allowScriptAccess" value="always" />
-            <param name="movie" value="http://westdragon.ru/logo.swf" />
+            <param name="movie" value="<?php bloginfo('stylesheet_directory'); ?>/images/logo.swf" />
             <param name="quality" value="high" />
             <param name="bgcolor" value="#000000" />
-            <embed src="http://westdragon.ru/logo.swf" quality="high" bgcolor="#000000" width="285" height="396" name="mitki"
+            <embed src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.swf" quality="high" bgcolor="#000000" width="285" height="396" name="mitki"
              align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
              pluginspage="http://www.macromedia.com/go/getflashplayer" />
             </object>
@@ -58,10 +58,10 @@ if(function_exists('language_attributes')) {
             codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
             width="355" height="97" id="mitki" align="left">
             <param name="allowScriptAccess" value="always" />
-            <param name="movie" value="http://westdragon.ru/right.swf" />
+            <param name="movie" value="<?php bloginfo('stylesheet_directory'); ?>/images/right.swf" />
             <param name="quality" value="high" />
             <param name="bgcolor" value="#000000" />
-            <embed src="/wp-content/themes/wpthemegen/images/right.swf" quality="high" bgcolor="#000000" width="355" height="97" name="mitki"
+            <embed src="<?php bloginfo('stylesheet_directory'); ?>/images/right.swf" quality="high" bgcolor="#000000" width="355" height="97" name="mitki"
              align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
              pluginspage="http://www.macromedia.com/go/getflashplayer" />
             </object>
