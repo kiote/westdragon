@@ -1,0 +1,370 @@
+/*
+Theme Name: WordPress Theme Generator
+Theme URI: http://www.yvoschaap.com/wpthemegen/
+Description: WordPress Custom Theme for WP Generator Blog created with the <a href="http://www.yvoschaap.com/wpthemegen/">WordPress Theme Generator</a>. To edit your current theme go: <a href="http://tinyurl.com/6mn9sz">edit settings</a>.
+Version: 14 Jul, 17:06
+Author: W.P. Gen
+Author URI: http://www.yvoschaap.com/
+
+*/
+
+html>body #content {
+	height: auto;
+	min-height: 580px;
+}
+
+body{
+	font-family: verdana;
+	font-size: 95%;
+	line-height: 115%;
+	background-color: #000000;
+	background-image: url(images/bg_flower.gif);
+	background-repeat: repeat;
+	background-position: center top;
+	text-align: center;
+}
+
+body,td,th {
+	color: #FFFFFF;
+}
+
+#doc {
+	width: 1000px;
+}
+
+
+a, a:link {
+	padding: 1px;
+	color: #FFFFCC;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FFFFCC;
+	text-decoration: none;
+	;
+}
+
+h1 {
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 190%;
+	padding-top: .1em;
+	padding-bottom: .5em;
+}
+
+
+h2 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+h3 {
+	font-family: georgia;
+	font-size: 130%;
+        color: #625327;
+        font-weight: bolder;
+}
+
+
+h4 {
+	font-size: 105%;
+}
+
+p {
+	font-size: 80%;
+	margin-bottom:1em;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+}
+
+acronym, abbr
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+}
+
+a img {
+	border: none;
+}
+
+
+#hd{
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 24px
+}
+#hd h1{
+	font-size: 290%;
+	color: #FFFFFF;
+
+}
+
+#hd h1 a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+h3 a:link, h3 a:hover, h3 a:visited{
+	color: #CA9A22;
+}
+
+.item {
+        color:#CA9A22;
+	padding: 10px;
+	background-color: #FFFFF;
+	background-image: url(images/bg_overlay.png);
+	background-repeat: repeat;
+	text-align:left;
+	margin-bottom: 1em;
+	;
+
+}
+
+.item ul {
+	list-style-type: disc;
+	padding-left: 15px;
+	margin-left: 10px;
+	font-size: 80%;
+}
+
+
+.item ol{
+	list-style-type: decimal;
+	padding-left: 15px;
+	margin-left: 10px;
+	font-size: 80%;
+}
+
+.itemhead{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.chronodata {
+	display: inline;
+	text-align: right;
+	margin-left: 2em;
+	font-size: 80%;
+}
+
+
+.itemhead h3{
+	display: inline;
+}
+
+
+input{
+	font-size: 80%;
+}
+
+.metadata{
+	line-height: 190%;
+	font-size: 75%;
+}
+
+.metadata a:link, .metadata a:hover, .metadata a:visited{
+	color: #FFFFCC;
+}
+
+.tags, .catagory {
+
+	display: block;
+
+}
+
+.commentlist p {
+	clear: both;
+	font-size: 95%;
+}
+
+
+cite{
+	font-size: 95%;
+}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+
+.commentmetadata {
+	font-size: 80%;
+	float: right;
+
+}
+.commentlist {
+	margin-top: 5px;
+}
+.commentlist li {
+	padding: 2px;
+	border-top: 1px solid #1A1A1A;
+}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #FFFFCC;
+}
+
+.navigation a:link, .navigation a:hover, .navigation a:visited{
+	color: #FFFFCC;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left
+}
+
+
+#secondary, #third{
+	background-color:  ;
+	background-image: url(/);
+	background-repeat: repeat;
+	text-align:left;
+	padding: 0px;
+	SP_GRADIENT
+}
+
+#secondary h4, #third h4{
+	color: #CA9A22;
+	font-family: Trebuchet MS, arial, sans-serif;
+	margin-top: 5px;
+	padding: 3px;
+
+}
+
+#secondary p, #third p{
+		padding: 3px;
+		font-size: 70%;
+                color: #CA9A22;
+}
+
+#searchform {
+	clear: both;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	padding: 3px;
+}
+
+#third {
+	margin-left: 9px;
+}
+
+#menu {padding:0; border:0px solid #fff }
+#menu ul {list-style:none; margin:0; padding:0; font-size:85%; }
+#menu ul li { padding:0; margin:0; }
+#menu ul li a { display:block; padding:4px 4px 4px 10px; color: #AD9352; }
+
+
+li .categories, li .linkcat, li .pagenav {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.yui-nav{
+	margin-bottom: -1px;
+}
+
+.yui-navset .yui-nav a:hover {
+	background-color: #0099DD;
+	color: #FFFFFF;
+    width: 400px;
+}
+
+.yui-navset .yui-nav li a {
+    background-color: #1A1A1A;
+	background-image: url(images/bg_overlay.png);
+	background-repeat: repeat;
+	border-bottom: 0px;
+	color: #FFFFFF;
+	padding: .3em .7em .3em .7em;
+	text-decoration:none;
+	font-size: 85%;
+}
+
+
+
+#wp-calendar {
+	empty-cells: show;
+	font-size: 90%;
+	margin: 0;
+	width: 90%;
+	padding: 3px;
+}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+}
+
+
+#wp-calendar td {
+	color: #FFFFF;
+	font-size: 70%;
+	letter-spacing: normal;
+	padding: 2px 0;
+	text-align: center;
+}
+
+
+#wp-calendar #today {
+	background: ;
+	color: #0099DD;
+}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+}
+
+#ft {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #FFFFCC;
+}
+
+#ft a:link, #ft a:hover, #ft a:visited{
+	color: #FFFFCC;
+}
+.tail {
+    height: 60px;
+    background-image: url("images/hvost.jpg");
+    background-repeat: no-repeat;
+    margin-left: 460px;
+}
